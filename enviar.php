@@ -1,5 +1,5 @@
 <?php  
-
+mb_http_output('UTF-8');
 // Llamando a los campos
 $nombre = $_POST['nombre'];
 $correo = $_POST['correo'];
